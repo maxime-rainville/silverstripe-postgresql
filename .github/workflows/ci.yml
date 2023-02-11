@@ -16,7 +16,7 @@ jobs:
     uses: silverstripe/gha-ci/.github/workflows/ci.yml@v1
     with:
       # set phpunit to false to prevent automatic generation of mysql phpunit jobs
-      phpunit: true
+      phpunit: false
       extra_jobs: |
         - php: 8.1
           db: pgsql

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="vendor/silverstripe/framework/tests/bootstrap.php" colors="true">
     <testsuites>
-        <testsuite name="framework">
+        <testsuite name="Default">
             <directory>vendor/silverstripe/framework/tests</directory>
         </testsuite>
     </testsuites>

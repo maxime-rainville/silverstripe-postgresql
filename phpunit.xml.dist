@@ -3,6 +3,8 @@
     <testsuites>
         <testsuite name="Default">
             <directory>tests</directory>
+        </testsuite>
+        <testsuite name="framework">
             <directory>vendor/silverstripe/framework/tests/php</directory>
         </testsuite>
     </testsuites>

@@ -22,12 +22,31 @@ jobs:
           db: pgsql
           phpunit: true
           composer_args: --prefer-lowest --prefer-source
+          phpunit_suite: framework
+        - php: 8.1
+          db: pgsql
+          phpunit: true
+          composer_args: --prefer-lowest --prefer-source
+          phpunit_suite: postgresql
         - php: 8.1
           db: pgsql
           phpunit: true
           composer_args: --prefer-source
+          phpunit_suite: framework
+        - php: 8.1
+          db: pgsql
+          phpunit: true
+          composer_args: --prefer-source
+          phpunit_suite: postgresql
         - php: 8.2
           db: pgsql
           phpunit: true
           composer_args: --prefer-source
+          phpunit_suite: framework
+        - php: 8.2
+          db: pgsql
+          phpunit: true
+          composer_args: --prefer-source
+          phpunit_suite: postgresql
+
 

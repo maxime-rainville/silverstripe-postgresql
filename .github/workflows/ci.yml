@@ -7,8 +7,6 @@ on:
   # Every Thursday at 12:20pm UTC
   schedule:
     - cron: '20 12 * * 4'
-
-
 jobs:
   ci:
     name: CI

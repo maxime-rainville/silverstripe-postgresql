@@ -12,7 +12,7 @@ jobs:
     name: CI
     # Only run cron on the silverstripe account
     if: (github.event_name == 'schedule' && github.repository_owner == 'silverstripe') || (github.event_name != 'schedule')
-    uses: "maxime-rainville/gha-ci/.github/workflows/ci.yml@1"
+    uses: "creative-commoners/gha-ci/.github/workflows/ci.yml@1"
     with:
       # set phpunit to false to prevent automatic generation of mysql phpunit jobs
       phpunit: false
